@@ -1,0 +1,48 @@
+register
+========
+localhost:8000/api/register/
+method-post 
+data:username,email,password 
+completed
+
+token
+=============
+localhost:8000/api/token/
+method-post 
+data=usrname,password
+completed
+
+list(reviews)
+==============
+localhost:8000/api/movies/
+method-get
+authentication:token
+
+movie Detail 
+============
+localhost:8000/api/movies/id/
+method-get
+authentication-Token
+
+add review
+==============
+localhost:8000/api/movies/id/add_review/
+method-post
+data=comment,rating
+authentication-token
+
+edit review
+============
+url:localhost:8000/api/review/{id}/
+method:delete
+Abc
+
+
+delete
+==========
+
+
+permisssions{IsAuthenticated,IsAdminUser,Allowany.....}custom permission
+
+
+
